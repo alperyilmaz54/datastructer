@@ -1,6 +1,6 @@
-#include <iostream>										// << Alper Yýlmaz>>
-#include <stdlib.h>										//  << 150160702 >>
-#include <math.h>										//<< 25.12.2016 >>
+#include <iostream>										// << Alper YÃ½lmaz>>
+#include <stdlib.h>										//<< 25.12.2016 >>
+#include <math.h>										
 #include <stdio.h>
 #include <ctype.h>
 #include <cstring>
@@ -570,7 +570,7 @@ struct postfx* writePostfix(struct prefx*prefix ){
 	return postfix;
 
 }
-int isNumeric(char *p){    // sayi olup olmadýgýný kontrol
+int isNumeric(char *p){    // sayi olup olmadÃ½gÃ½nÃ½ kontrol
 		if (isdigit(p[0]) || isdigit(p[1]))
 		{      // ilk karakteri veya ikinci karakteri sayiysa return 1
 			return 1;
